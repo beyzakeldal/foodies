@@ -1,0 +1,245 @@
+
+*{
+    
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+
+}
+body{margin:0px;
+    background-color: #ffe4e187;
+   
+}
+div.logo{
+   
+     display: flex;
+     padding-top: 20px;
+     height: 40px;
+     
+
+}
+.logo h2{margin:0;
+    padding-left: 10px; }
+/*nav.menü{
+     display: flex;
+     
+    }*/
+    ul {display: flex;
+        color: whitesmoke;
+        justify-content:space-between;
+         
+        padding-left: 380px;
+        
+    }
+     li:hover{
+        color:darkslategray;
+    }
+    button#button{
+        border-radius: 12px;
+        width: 80px;
+        height: 25px;
+        color:cornsilk;
+        background-color: black;
+        border: none; font-family: sans-serif;
+    }
+    header{background-color: #fc8868;
+   /* display: flex;*/
+    margin: 0px;
+    padding: 0px;
+    height: 650px;
+    color: cornsilk;
+}
+ul li{justify-content: space-between;
+    margin: 10px;
+    padding: 10px;}
+    
+  
+ header .grid{width:1170px;margin:0px auto;display: flex;justify-content:space-between}  
+svg{fill: cornsilk;}
+
+a:hover{
+    color:wheat; 
+}
+button#button:hover{color: wheat;}
+svg:hover{color: wheat ;}
+html{
+    height: 100%;
+}
+header{
+background-color: #fc8868;
+background-repeat: no-repeat;
+background-position-x: 100%;
+background-size: 600px;
+position: relative;
+display: block;
+overflow: hidden;
+
+
+}
+header::before{content: '';
+    display: block;
+    position: absolute;
+    bottom: -76px;
+    left: -76px;
+    width: 300px;
+    height: 300px;
+     background-image: url(leaf.png);
+     background-size: cover;
+     overflow: hidden;
+}
+.baslik{
+    padding-top: 70px;
+    font-size: 20px;
+    padding-left: 250px;
+}
+.yazi{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    position: relative;
+}
+.yazi::before{
+    content: '';
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    right: 0;
+    background-image: url('plate21.png');
+    background-size: 400px 400px;
+    top: calc(50% - 200px);
+}
+ .parafraf{
+    padding-top: 100px;
+
+} 
+.cizgi {
+    border-top: solid cornsilk;
+    width: 80px;
+    padding: 10px;
+    margin: 20px;
+}
+.aa{
+    display: flex;
+    padding-left: 230px;
+}
+.search{
+    justify-content: center;
+    text-align:center;
+    outline-color:none;
+    position: relative;
+    z-index: 1;
+    padding-right: 25px;
+   
+}
+
+input{
+    width: 450px;
+    height: 45px;
+    outline:none;
+    color: black;
+    margin-right: 1.9%;
+    border: none;
+}
+select{
+    width: 100px;
+    color:dimgray;
+    height: 47px;
+    outline:none ;
+    margin-left: -30px;
+    padding: 0px;
+    overflow: visible;
+    border: none;
+    text-rendering: auto;
+    border-left:ridge;
+}
+button{ background-color: black;
+    color: cornsilk;
+   width: 100px;
+   height: 47px;
+   outline: none;
+   margin-left: -5px;
+   border: none;
+}
+button:hover{color:wheat; ;}
+ h2{
+     color:#333333;
+     margin-top: 120px;
+     margin-left: 95px;  
+     font-size: 25px;
+    }
+ .icon{
+    
+    display: flex;
+    padding-top: 120px;
+ }
+ #icon1{fill:salmon;
+    margin-right: 30px; height: 35px;width: 35px;
+}
+ #icon2{fill:salmon; height: 35px;width: 35px;}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 0px auto;
+}
+
+  
+ 
+/* Kutular */
+.kutular{ display:flex;justify-content:space-between;width:1170px;margin-left:auto;margin-right:auto;margin-bottom:100px}
+.kutuTekil + .kutuTekil{margin-left:40px;}
+.kutuTekil{justify-content: center; background:#fff;width: 1170px;  height:100px;display:flex;align-items:center;box-sizing:border-box;border-radius:10px;border:1px solid #ddd}
+.kutuTekil img{width:100px;height:100px;display:block;object-fit:contain;padding:20px;box-sizing:border-box}
+.kutuTekil strong{color: black;}
+.kutuTekil:hover{box-shadow: 2px 2px 6px #888888;}
+.banner{
+    background-color:#fff;
+    margin-bottom:300px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+ .banner::after{content: ''; 
+    
+    display: block;
+    position:absolute;
+     bottom: -40px; 
+     right: -40px;
+    width: 250px;
+    height: 250px;
+     background-image: url(PNGIX.com_pot-leaf-png_991242.png);
+     background-size: cover;
+     overflow: hidden;
+     
+}
+.plte{
+    margin-left: 150px;
+    display: flex;
+    padding-top: 5%;
+}
+span .red{
+    display: flex;
+}
+.red{color:salmon;}
+.header-banner{
+    display: flex;
+    padding: 60px 0px 0px 0px;
+}
+.bsl2{
+    margin-left:90px;
+    margin-top: 0px;
+}
+.afis{
+    margin: 0px;
+    padding: 0px;
+}
+#btn{background-color: orangered;
+height:50px ;
+width:200px ;
+margin-left: 90px;;
+font-family: sans-serif;
+} 
+h4{color: darkslategray; width: 400px;}
+#h2{margin-top: 0;}
+.swiper-container{padding-bottom: 20px !important}
