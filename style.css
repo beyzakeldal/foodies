@@ -43,9 +43,10 @@ div.logo{
         background-color: black;
         border: none; font-family: sans-serif;
     }
-    header{background-color: #fc8868;
+    header{background-color: #fc8868; 
+        width: 1170px;
    /* display: flex;*/
-    margin: 0px;
+    margin:auto;
     padding: 0px;
     height: 650px;
     color: cornsilk;
@@ -199,6 +200,10 @@ button:hover{color:wheat; ;}
     position: relative;
     overflow: hidden;
     padding-bottom: 100px;
+    justify-content: space-between;
+    text-align: center;
+    width:1170px;
+    margin-left:auto;margin-right:auto;
 }
  .banner::after{content: ''; 
     
